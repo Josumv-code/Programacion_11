@@ -7,7 +7,7 @@ int main() {
     cin >> N >> Q; 
     int vagones[100] = {0}; // //vagones en 0
     for (int i = 0; i < Q; i++) { 
-         string operacion; // operacion
+        string operacion; // operacion
         cin >> operacion; 
         if (operacion == 'A') { 
             int p, v;
